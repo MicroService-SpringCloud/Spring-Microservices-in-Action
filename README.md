@@ -1,7 +1,7 @@
 # 스터디 운영
 
 ## Goal
-* [스프링 마이크로서비스 코딩 공작소 스터디](http://www.yes24.com/Product/Goods/67473377?Acode=101)
+* [스프링 마이크로서비스 코딩 공작소](http://www.yes24.com/Product/Goods/67473377?Acode=101)
 
 ## 방식
 
