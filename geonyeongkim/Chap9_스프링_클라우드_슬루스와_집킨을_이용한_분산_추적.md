@@ -141,11 +141,12 @@ public class ResponseFilter extends ZuulFilter{
 특히, 스프링 클라우드 슬루스와 궁합이 좋습니다.
 
 ### 사용법
-
+<br>
 1. 각 서비스에 의존성 설정
 
 compile 'org.springframework.cloud:spring-cloud-sleuth-zipkin:2.2.3.RELEASE'
 
+<br>
 2. 각 서비스 application.yml 수정
 
 spring.zipkin.baseUrl 에 집킨 서버주소를 넣습니다.
@@ -156,6 +157,7 @@ spring:
     baseUrl:  localhost:9411
 ```
 
+<br>
 3. 집킨 서버 설치 및 구성
 
 집킨 서버가 별도로 필요하며 스프링 부트 프로젝트로 생성가능합니다.
@@ -175,7 +177,8 @@ public class ZipkinServerApplication {
 }
 ```
 
-4, 추적 레벨 결정
+<br>
+4. 추적 레벨 결정
 
 슬루스는 모든 로그를 집킨으로 전송하지 않습니다.
 > 그렇다는 것은 슬루스에서는 샘플링 목적으로 집킨을 사용하는 것 같기도 합니다.
